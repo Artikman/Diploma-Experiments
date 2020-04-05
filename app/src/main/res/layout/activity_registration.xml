@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon2"
+    tools:context=".activity.RegistrationActivity">
+
+    <EditText
+        android:id="@+id/cpass"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/repeat_password"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ic_edit_text"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_action_password" />
+
+    <EditText
+        android:id="@+id/email"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ic_edit_text"
+        android:hint="@string/email"
+        android:autofillHints=""
+        tools:ignore="TextFields"
+        android:drawableStart="@drawable/ic_action_name" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ic_edit_text"
+        android:hint="@string/passwords"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_action_password" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpass"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/ic_edit_text"
+        android:text="@string/authorization"
+        android:layout_marginStart="90dp"
+        tools:targetApi="lollipop" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/experiment_01" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/account"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="25dp" />
+
+</RelativeLayout>

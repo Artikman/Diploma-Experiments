@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Эксперимент</string>
+    <string name="obtaining_samples">Получение образцов</string>
+    <string name="shear_strength">Предел прочности на сдвиг</string>
+    <string name="thermal_hardening">Термоупрочнение</string>
+    <string name="dropping_point">Температура каплепадения</string>
+    <string name="colloidal_stability">Коллоидная стабильность</string>
+    <string name="acid_and_alkali_content">Содержание кислот и щелочей</string>
+    <string name="penetration">Пенетрация</string>
+    <string name="tribological_tests">Триботехнические испытания</string>
+    <string name="sample_request">Запросы</string>
+    <string name="grease_output">Выход смазки</string>
+    <string name="grease_mass">Масса смазки</string>
+    <string name="location">Расположение</string>
+    <string name="equipment">Оборудование</string>
+    <string name="name">Наименование</string>
+    <string name="time_spent">Время затрачено</string>
+    <string name="end_time">Время окончания</string>
+    <string name="start_time">Время начала</string>
+    <string name="date_measurement">Дата измерения</string>
+    <string name="add">Добавить эксперимент</string>
+    <string name="show">Посмотреть все эксперименты</string>
+    <string name="delete">Удалить все эксперименты</string>
+    <string name="send_server">Отправить на сервер</string>
+    <string name="send_email">Отправить на почту</string>
+    <string name="checkbox">checkbox</string>
+    <string name="names">names</string>
+    <string name="password">password</string>
+    <string name="Open">Эксперимент</string>
+    <string name="Close">Эксперимент</string>
+    <string name="title_activity_obtaining">ObtainingActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="email">Почта</string>
+    <string name="passwords">Пароль</string>
+    <string name="authorization">Зарегистрироваться</string>
+    <string name="account">У вас есть уже аккаунт? Авторизоваться!</string>
+
+</resources>

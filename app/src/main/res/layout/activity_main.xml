@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:background="#CD5C5C"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="450dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="35dp"
+            app:srcCompat="@drawable/experiment_01" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="27dp"
+            android:background="@drawable/exp_01"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="27dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="197dp"
+            android:background="@drawable/exp_02"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="197dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="27dp"
+            android:background="@drawable/exp_03"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="27dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="197dp"
+            android:background="@drawable/exp_04"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="197dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="27dp"
+            android:background="@drawable/exp_05"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="27dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="197dp"
+            android:background="@drawable/exp_06"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="197dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="27dp"
+            android:background="@drawable/exp_07"
+            android:layout_marginTop="700dp"
+            android:layout_marginLeft="27dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="197dp"
+            android:background="@drawable/exp_08"
+            android:layout_marginTop="700dp"
+            android:layout_marginLeft="197dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

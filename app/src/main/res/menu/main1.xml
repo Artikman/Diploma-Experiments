@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sample_request"
+        android:orderInCategory="1"
+        android:title="@string/sample_request"
+        android:icon="@drawable/ic_autorenew_black_24dp">
+    </item>
+    <item
+        android:id="@+id/send_server"
+        android:orderInCategory="2"
+        android:title="@string/send_server"
+        android:icon="@drawable/ic_room_service_black_24dp">
+    </item>
+    <item
+        android:id="@+id/send_email"
+        android:orderInCategory="3"
+        android:title="@string/send_email"
+        android:icon="@drawable/ic_email_black_24dp">
+
+    </item>
+
+</menu>
